@@ -13,13 +13,13 @@ Feature: using qase suite tag
     Then it should fail
 
   @qase.suite:MySuite||SubSuite
-  Scenario: Test with multiple suite success
+  Scenario: Test with child suite success
     Given I have a simple test
     When I run it
     Then it should pass
 
   @qase.suite:MySuite||SubSuite
-  Scenario: Test with multiple suite failed
+  Scenario: Test with child suite failed
     Given I have a simple test
     When I run it
     Then it should fail
