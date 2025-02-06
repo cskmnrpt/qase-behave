@@ -1,5 +1,5 @@
 ## qase-pytest
-This is an example repository with tests in the features `directory`. To run the tests :
+This is an example repository with tests in the `features` `directory. To run the tests :
 
 1. Clone the repository with git clone `https://github.com/cskmnrpt/qase-behave.git`. To clone a different branch, other than main, use this command - `git clone --single-branch --branch <branch-name> https://github.com/cskmnrpt/qase-pytest.git`
 
