@@ -57,5 +57,5 @@ jobs:
 
       - name: Run Behave tests
         run: |
-          behave --format=qase.behave.formatter:QaseFormatter
+          QASE_MODE=testops behave --format=qase.behave.formatter:QaseFormatter
 
